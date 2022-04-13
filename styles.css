@@ -16,3 +16,11 @@ p{
     line-height: 1.5;
     font-size: 16px;
 }
+
+/* NAVIGATION BAR*/
+
+nav{
+    height: 100px;
+    width: 100%;
+    max-width: 100px;
+}
