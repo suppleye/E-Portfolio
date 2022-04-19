@@ -51,6 +51,10 @@ section:nth-child(even){
     background-color: lightgray;
 }
 
+.section__title{
+    margin-bottom: 20px;
+}
+
 /* NAVIGATION BAR*/
 
 nav{
@@ -155,5 +159,28 @@ padding-top: 8px;
 }
 
 .about-me__img{
+    width: 100%;
+}
+
+/* TEXT-STACK*/
+
+.language{
+    width: 25%;
+}
+
+.language__img{
+    width: 100%;
+    max-width: 100px;
+}
+
+.language__img--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.language__list{
+    display: flex;
     width: 100%;
 }
