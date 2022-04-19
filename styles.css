@@ -33,6 +33,10 @@ li{
     flex: 1;
 }
 
+.container{
+    padding: 50px 0;
+}
+
 .row{
     width: 100%;
     max-width: 800px;
@@ -41,6 +45,10 @@ li{
 
 .text--seagreen{
     color: seagreen;
+}
+
+section:nth-child(even){
+    background-color: lightgray;
 }
 
 /* NAVIGATION BAR*/
