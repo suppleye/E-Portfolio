@@ -145,3 +145,7 @@ padding-top: 8px;
     display: flex;
     align-items: center;
 }
+
+.about-me__img{
+    width: 100%;
+}
