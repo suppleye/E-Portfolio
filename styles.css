@@ -224,6 +224,7 @@ padding-top: 8px;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
+    
 }
 
 .project__wrapper:before{
@@ -236,6 +237,7 @@ padding-top: 8px;
     background-color: #1c1d25;
     opacity: 0;
     transition: opacity 450ms ease;
+    z-index: 2;
 }
 
 .projects:hover .project__wrapper:before{
@@ -245,4 +247,8 @@ padding-top: 8px;
 .projects:hover .project__img{
     transform: scale(1.07);
     filter: blur(4px);
+}
+
+.project__list{
+    padding-top: 40px;
 }
