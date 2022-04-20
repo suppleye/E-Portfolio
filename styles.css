@@ -215,6 +215,7 @@ padding-top: 8px;
 
 .project__img{
     width: 100%;
+    transition: all 500ms ease;
 }
 
 .project__wrapper{
@@ -232,10 +233,16 @@ padding-top: 8px;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #242424;
+    background-color: #1c1d25;
     opacity: 0;
+    transition: opacity 450ms ease;
 }
 
-.project:hover .project__wrapper:before{
+.projects:hover .project__wrapper:before{
     opacity: 0.7;
+}
+
+.projects:hover .project__img{
+    transform: scale(1.07);
+    filter: blur(4px);
 }
