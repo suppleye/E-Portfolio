@@ -166,21 +166,38 @@ padding-top: 8px;
 
 .language{
     width: 25%;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .language__img{
     width: 100%;
     max-width: 100px;
+    transition: all 300ms ease;
+}
+
+.language__img:hover{
+    filter: brightness(80%);
+    opacity: 0.86;
+    transform: scale(0.9);
 }
 
 .language__img--wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 25px 16px;
 
 }
 
 .language__list{
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
+}
+
+.language__name{
+    position: absolute;
+    bottom: 0%;
 }
