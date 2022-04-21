@@ -309,6 +309,14 @@ footer{
     background-color: #242424;
 }
 
+.footer__logo{
+    margin-bottom: 20px;
+}
+
+.footer__social--list{
+    margin-bottom: 20px;
+}
+
 .footer__row{
     display: flex;
     flex-direction: column;
