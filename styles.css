@@ -251,6 +251,7 @@ padding-top: 8px;
 
 .projects:hover .project__description{
     opacity: 1;
+    transform: translateY(-50%);
 }
 
 .project__list{
@@ -261,11 +262,11 @@ padding-top: 8px;
     position: absolute;
     top: 50%;
     left: 90px;
-    transform: translateY(-50%);
+    transform: translateY(100%);
     max-width: 550px;
     z-index: 3;
     opacity: 0;
-    transition: opacity 300ms ease;
+    transition: transform 450ms, opacity 300ms ease;
 }
 
 .project__description--title{
