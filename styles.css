@@ -213,6 +213,14 @@ padding-top: 8px;
 
 /* PROJECT SECTION */
 
+.projects{
+    margin-bottom: 135px;
+}
+
+.projects:last-child{
+    margin-bottom: 40px;
+}
+
 .project__img{
     width: 100%;
     transition: all 500ms ease;
@@ -289,4 +297,19 @@ padding-top: 8px;
 .project__description--link{
     text-align: left;
     color: #fff;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #242424;
+}
+
+.footer__row{
+    padding: 8% 0;
+}
+
+.footer__logo--img{
+    width: 70px;
+    height: 70px;
 }
