@@ -379,7 +379,7 @@ footer{
     opacity: 1;
 }
 
-/* Small phones, tablets, largesmartphones */
+/* Small phones, tablets, large smartphones */
 @media (max-width: 768px){
     nav{
         height: 68px;
@@ -413,6 +413,12 @@ footer{
         display: none;
     }
 
+    .project__description{
+        padding: 0;
+        left: 0;
+        width: 100%;
+    }
+
     .project__description--para{
         display: none;
     }
@@ -420,5 +426,16 @@ footer{
     .project__description--link{
         display: flex;
         justify-content: center;
+    }
+
+    .project__description--title{
+        font-size: 32px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .project__description--sub-title{
+        text-align: center;
+        margin: 12px 0;
     }
 }
