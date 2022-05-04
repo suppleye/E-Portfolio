@@ -153,6 +153,19 @@ nav{
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
     margin-bottom: 28px;
+    animation: animate-pfp 800ms 200ms backwards;
+}
+
+@keyframes animate-pfp{
+    0% {
+        transform: scale(0);
+    }
+    80% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .about-me__picture{
@@ -164,12 +177,13 @@ padding-top: 8px;
 
 .about-me__info--title{
     margin-bottom: 16px;
-
+    animation: fade-up 650ms 400ms backwards;
 }
 
 .about-me__info--para{
     font-size: 20px;
     margin-bottom: 28px;
+    animation: fade-up 650ms 400ms backwards;
 }
 
 .about-me__link{
@@ -177,6 +191,18 @@ padding-top: 8px;
     color: black;
     text-decoration: none;
     padding: 0 16px;
+    animation: fade-up 650ms 400ms backwards;
+}
+
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .about-me__img--container{
