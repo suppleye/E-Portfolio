@@ -396,4 +396,29 @@ footer{
     .language{
         width: calc(100%/3);
     }
+
+    .project__description--para{
+        font-size: 14px;
+    }
+
+    .project__description{
+        left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* Small phones */
+@media (max-width:480px){
+    .nav__link:not(:last-child){
+        display: none;
+    }
+
+    .project__description--para{
+        display: none;
+    }
+
+    .project__description--link{
+        display: flex;
+        justify-content: center;
+    }
 }
